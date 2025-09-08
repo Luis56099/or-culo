@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
 html {
   box-sizing: border-box;
-  height: 100%;
+  height: 110%;
 }
 
 *,
@@ -11,8 +14,8 @@ html {
 
 html,
 body {
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
   
   
   /* Código para poner un cursor personalizado*/
@@ -22,33 +25,38 @@ body {
 
 
 h2 {
-  font-size: 1.1em;
+  font-size: 10em;
 }
 
 #contenedor {
-  margin: auto 1em;
+  margin: auto 3em;
   text-align: center;
 
 }
 
 #tituloPagina {
-  margin-top: 1em;
+  margin-top: 5em;
   margin-bottom: 0;
-  font-family: sans-serif;
+  font-family: Pacifico,  Static;
+  font-size: 5em;
 }
 
 #foto {
- height: 300px;
-  border: #ff7300 solid 5px;
-  margin-top: 15px;
+ height: 600px;
+  border:brown 5px;
+  margin-top:20px;
 }
 
 .tituloPrediccion {
-  font-size: 2em;
+  font-size: 3em;
+  font-family:Pacifico, Static;
 }
 
 .prediccion {
-  font-size: 1.5em;
+  font-size: 3em;
+  font-family: Pacifico, Static;
+  color: blue;
+  
 }
 
 .prediccion::first-letter {
@@ -56,9 +64,9 @@ h2 {
 }
 
 #boton {
-  font-size: 0.9em;
-  background-color: #3d00fdb5;
-  color: white;
+  font-size: 1em;
+  background-color: aquamarine;
+  color: black;
   margin-bottom: 2em;
   cursor: pointer;
 }
