@@ -43,8 +43,8 @@ h2 {
 
 #foto {
  height: 600px;
-  border:brown 5px;
-  margin-top:20px;
+  border: rgb(3, 126, 30)  20px solid;
+  margin-top: 20px;
 }
 
 .tituloPrediccion {
