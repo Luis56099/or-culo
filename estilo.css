@@ -16,6 +16,7 @@ html,
 body {
   margin: 10px;
   padding: 10px;
+  background-color: bisque;
   
   
   /* Código para poner un cursor personalizado*/
@@ -39,23 +40,25 @@ h2 {
   margin-bottom: 0;
   font-family: Pacifico,  Static;
   font-size: 5em;
+  color: rgba(87, 7, 7, 0.712);
 }
 
 #foto {
  height: 600px;
-  border: rgb(3, 126, 30)  20px solid;
+  border: rgba(87, 7, 7, 0.712) 20px solid;
   margin-top: 20px;
 }
 
 .tituloPrediccion {
   font-size: 3em;
   font-family:Pacifico, Static;
+  color: rgba(87, 7, 7, 0.712);
 }
 
 .prediccion {
   font-size: 3em;
   font-family: Pacifico, Static;
-  color: blue;
+  color: rgba(87, 7, 7, 0.555);
   
 }
 
@@ -65,8 +68,8 @@ h2 {
 
 #boton {
   font-size: 1em;
-  background-color: aquamarine;
-  color: black;
+  background-color: rgb(red, green, blue);
+  color: rgba(112, 94, 94, 0.712);
   margin-bottom: 2em;
   cursor: pointer;
 }
